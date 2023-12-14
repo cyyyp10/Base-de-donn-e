@@ -1,9 +1,6 @@
-const validTypes = ["Plante","Poison","Feu","Insecte","Vol","Eau","Normal", "Electrik","Fée"]
-
-
 
 module.exports = (sequelize, DataTypes) => {
-    return sequelize.define('Pokemon', {
+    return sequelize.define('Vigneron', {
       id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
