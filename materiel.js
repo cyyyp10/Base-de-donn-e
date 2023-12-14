@@ -1,6 +1,6 @@
 
 module.exports = (sequelize, DataTypes) => {
-    return sequelize.define('Pokemon', {
+    return sequelize.define('Matériel', {
       id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
